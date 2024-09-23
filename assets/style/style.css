@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+header {
+    font-family: Roboto ;
+}
+.navigation {
+    display: flex;
+}
+#nav1 {
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+#nav1:hover {
+    color: blueviolet;
+}
+#nav2 {
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+#nav2:hover {
+    color: blueviolet;
+}
+#nav3 {
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+#nav3:hover {
+    color: blueviolet;
+}
+#nav4 {
+    color:black
+}
+#nav4:hover {
+    color: blueviolet;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#titre{
+    text-align: center;
+}
+#profil {
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+.contact{
+    padding-left: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-content: flex-start;
+}
+#a-propos-de-moi{
+    text-decoration: underline;
+    color:var(--main-bg-color)
+}
+#description {
+    border: solid rgb(0, 0, 0);
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 20px;    
+    color: var(--main-bg-color);
+}
+.hardsoft {
+    display:flex;
+    justify-content: space-evenly;
+}
+.article{
+    border: solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+
+}
+p > strong {
+    color: rgb(212, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+.article p::before {
+    content: "New";
+    padding: 7px;
+    background-color: rgb(255, 171, 3);
+    border-radius: 20px;
+    font-size: 0.9em;
+    margin: 10px 20px 10px 0px;
+    border: left;
+}

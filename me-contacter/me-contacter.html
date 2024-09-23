@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8" />
+        <link href="./assets/style/me-contacter.css" rel="stylesheet" />
+    </head>
+    <header>
+        <nav class="test">
+            <a href="file:///C:/Users/foirr/Documents/Supinfo/HTML_CSS%20chapitre%201/portfolio/index.html" title="icon d'une maison qui permet de reveir à la page principal">
+                <img src="https://img.icons8.com/?size=100&id=83326&format=png&color=000000" alt="icon-acceuil qui permet de revenir à la page d'acceuil" id="icon-accueil"/>
+            </a>
+            <p id="acceuil">Acceuil</p>
+        </nav>
+    </header>
+    <body>
+        <h1>Vos informations pour me contacter :</h1>
+        <section id="informations">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="apikey" value="585d4ad2-9578-4682-9351-64a11116baf7">
+                <div>
+                    <label for="name">Nom :</label>
+                    <input type="text" name="name" id="name" required />
+                </div><br>
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email" required />
+                </div><br>
+                <div>
+                    <label for="number">Numéro de téléphone :</label>
+                    <input type="tel" name="number" id="number" required />
+                </div><br>
+                <div>
+                    <label for="raison">Vos raisons de me contacter :</label>
+                    <textarea id="raison" name="raison" rows="5" clos="33"></textarea>
+                </div><br>
+                <div>
+                    <label for="radio">J'accepte d'être recontacté</label>
+                    <input type="radio" name="radio" id="radio" /> 
+                </div><br>
+                <div>
+                    <label for="radio">je n'accepte pas d'être recontacter</label>
+                    <input type="radio" name="radio" id="radio">
+                </div><br>
+                <div>
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                    <input type="submit" value="Envoyer">
+                </div><br>
+            </form> 
+        </section>
+    </body>
+</html>

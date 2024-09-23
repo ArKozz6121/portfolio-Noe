@@ -1,0 +1,16 @@
+#icon-accueil {
+    margin-top: 10px;
+    width: 1.5em;
+}
+.test{
+    display: flex;
+    justify-content: flex-start;
+}
+body {
+    background-color:beige;
+}
+div, select {
+    input[type="checkbox"]:checked{
+        box-shadow: 0 0 0 3px rgb(180, 32, 32);
+    }
+    }
